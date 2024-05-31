@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ensure body takes up full viewport height */
+  margin: 0;
+  padding: 0;
+  background-color: #0F1721; /* Small, dark background color for the entire screen */
+}
+
+.container {
+  text-align: left; /* Align content to the left */
+}
+
+h2 {
+  color: #FFFFFF; /* White color for headings */
+}
+
+label {
+  color: #FFFFFF; /* White color for labels */
+}
+
+input[type="text"] {
+  padding: 12px; /* Increase padding for larger input boxes */
+  margin: 5px;
+  border: 1px solid #FFFFFF; /* White border for input fields */
+  border-radius: 4px;
+  background-color: #1E2936; /* Dark background for input fields */
+  color: #FFFFFF; /* White color for text in input fields */
+  width: 25vw; /* Make input boxes take up 1/4th of the viewport width */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+button {
+  background-color: #1E2936; /* Dark background for button */
+  color: white; /* White text color for button */
+  padding: 14px 28px; /* Increase padding for larger button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0F1721; /* Slightly darker background on hover */
+}
+
+p {
+  color: #FFFFFF; /* White color for text */
+}
